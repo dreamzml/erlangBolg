@@ -1,0 +1,113 @@
+<erl>
+
+out(A) ->
+       {ssi, "HEAD", "%%",[{"gallery", "current-menu-item"}]}.
+
+</erl>
+	        	
+					<div class="page-title"><h1>Our Gallery</h1> <span>Lorem ipsum dolor amet</span></div>
+					
+					<!-- side content -->
+					<div id="gallery-holder">
+					
+						<!-- filter -->
+						<ul id="portfolio-filter" class="gallery-filter">
+				    		<li>Filter: </li>
+				    		<li><a href="#" rel="all" > All </a></li>
+				    		<li><a href="#" rel="graphics" > Graphics </a></li>
+				    		<li><a href="#" rel="video">  Video </a></li>
+				    		<li><a href="#" rel="logos" >Logos</a></li>
+				    		
+				    		<li class="layout-notext"></li>
+				    		<li class="layout-text active"></li>
+				    		<li class="layout-label">Layout: </li>
+				    	</ul>
+				    	<div class="clear"></div>
+						<!-- filter -->
+						
+						<!-- Thumbnails -->
+						<ul id="portfolio-list" class="gallery-thumbs" >
+							<li class="graphics">
+								<a href="img/dummies/285x200.jpg" title="Lorem ipsum dolor" rel="prettyPhoto[group]"  class="plusbg"><img  src="img/dummies/285x200.jpg" title="Lorem ipsum dolor" alt="Pellentesque habitant morbi." ></a>
+								<div class="thumb-description">
+									<span class="thumb-title">Lorem ipsum dolor</span>
+									<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.  </p>
+								</div>
+							</li>
+							
+							<li class="graphics">
+								<a href="img/dummies/285x200.jpg" title="Lorem ipsum dolor" rel="prettyPhoto[group]" class="plusbg" ><img  src="img/dummies/285x200.jpg" title="Lorem ipsum dolor" alt="Pellentesque habitant morbi." ></a>
+								<div class="thumb-description">
+									<span class="thumb-title">Lorem ipsum dolor</span>
+									<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+								</div>
+							</li>
+							
+							<li class="video">
+								<a href="http://www.youtube.com/watch?v=pzI4D6dyp_o" title="Lorem ipsum dolor" rel="prettyPhoto[group]"  class="plusbg" ><img  src="img/dummies/video.jpg" title="Lorem ipsum dolor" alt="Pellentesque habitant morbi." ></a>
+								<div class="thumb-description">
+									<span class="thumb-title">Lorem ipsum dolor</span>
+									<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+								</div>
+							</li>
+							
+							<li class="logos">
+								<a href="img/dummies/285x200.jpg" title="Lorem ipsum dolor"  rel="prettyPhoto[group]" class="plusbg" ><img  src="img/dummies/285x200.jpg" title="Lorem ipsum dolor" alt="Pellentesque habitant morbi." ></a>
+								<div class="thumb-description">
+									<span class="thumb-title">Lorem ipsum dolor</span>
+									<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+								</div>
+							</li>
+							
+							<li class="graphics">
+								<a href="img/dummies/285x200.jpg" title="Lorem ipsum dolor" rel="prettyPhoto[group]"  class="plusbg" ><img  src="img/dummies/285x200.jpg" title="Lorem ipsum dolor" alt="Pellentesque habitant morbi." ></a>
+								<div class="thumb-description">
+									<span class="thumb-title">Lorem ipsum dolor</span>
+									<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+								</div>
+							</li>
+							
+							<li class="video">
+								<a href="http://www.youtube.com/watch?v=pzI4D6dyp_o" title="Lorem ipsum dolor" rel="prettyPhoto[group]"   class="plusbg" ><img  src="img/dummies/video.jpg" title="Lorem ipsum dolor" alt="Pellentesque habitant morbi." ></a>
+								<div class="thumb-description">
+									<span class="thumb-title">Lorem ipsum dolor</span>
+									<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+								</div>
+							</li>
+							<li class="logos">
+								<a href="img/dummies/285x200.jpg" title="Lorem ipsum dolor" rel="prettyPhoto[group]"   class="plusbg" ><img  src="img/dummies/285x200.jpg" title="Lorem ipsum dolor" alt="Pellentesque habitant morbi." ></a>
+								<div class="thumb-description">
+									<span class="thumb-title">Lorem ipsum dolor</span>
+									<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+								</div>
+							</li>
+							
+							<li class="graphics">
+								<a href="img/dummies/285x200.jpg" title="Lorem ipsum dolor" rel="prettyPhoto[group]"   class="plusbg" ><img  src="img/dummies/285x200.jpg" title="Lorem ipsum dolor" alt="Pellentesque habitant morbi." ></a>
+								<div class="thumb-description">
+									<span class="thumb-title">Lorem ipsum dolor</span>
+									<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+								</div>
+							</li>
+							
+							<li class="logos">
+								<a href="img/dummies/285x200.jpg" title="Lorem ipsum dolor" rel="prettyPhoto[group]"   class="plusbg" ><img  src="img/dummies/285x200.jpg" title="Lorem ipsum dolor" alt="Pellentesque habitant morbi." ></a>
+								<div class="thumb-description">
+									<span class="thumb-title">Lorem ipsum dolor</span>
+									<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+								</div>
+							</li>
+							
+						</ul>
+						<div class="clear"></div>	
+			            <!-- ENDS Thumbnails -->
+						
+					</div>
+					<!-- ENDS side content -->
+					
+					
+					<div class="clear"></div>
+	        	
+<erl>
+out(A) -> {ssi, "FOOT",[],[]}.
+</erl>

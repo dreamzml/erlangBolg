@@ -1,0 +1,49 @@
+<erl>
+
+
+box(Str) ->
+    {'div',[{class,"box"}],
+     {pre,[], yaws_api:htmlize(Str)}}.
+
+fpostvar(A, Key) ->
+    case postvar(A,"lang") of
+        undefined -> "None";
+        {ok, Val} ->
+            Val
+    end.
+
+getPost(A,Key)->
+    case postvar(A,Key) of
+        undefined -> "None";
+        {ok, Val} -> Val
+    end.
+
+out(A) ->
+     [{ssi, "HEAD", "%%",[{"contact", "current-menu-item"}]},
+     {ehtml,
+      {'div',[{id, "entry"}], [{h2, [],"post.yaws"},
+
+       box(io_lib:format('~p', [yaws_api:parse_post(A)])),
+
+        {'div',[{class,"box"}],
+          {p,[], ["you input name is ",getPost(A,'name')]}}
+         ]}
+      },
+     {ssi, "FOOT",[],[]}].
+
+
+</erl>
+<erl>
+out(A) -> 
+  mysql:start_link(conn, "127.0.0.1", 3306, "root", "123456", "dream"),
+  mysql:fetch(conn, "INSERT INTO auth_group(id, name) VALUES ('', '" ++ getPost(A,'name') ++ "'),('', '" ++ getPost(A,'email') ++ "')"),
+  Result = mysql:fetch(p1, <<"SELECT * FROM auth_group">>),
+  io:format("Result: ~p~n", [Result]). 
+
+getPost(A,Key)->
+    case postvar(A,Key) of
+        undefined -> "None";
+        {ok, Val} -> Val
+    end.
+
+</erl>

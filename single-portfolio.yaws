@@ -1,0 +1,80 @@
+<erl>
+
+out(A) ->
+       {ssi, "HEAD", "%%",[{"blog", "current-menu-item"}]}.
+
+</erl>
+	        	
+					<div class="page-title"><h1>Our Work</h1> <span>Lorem ipsum dolor amet</span></div>
+					
+					<!-- side content -->
+					<div id="side-content">
+					
+						<!-- single -->
+						<div class="single-post">
+							<div class="post">
+								<div class="post-feature-img">
+									<img src="img/dummies/590x260.jpg" alt="Pic" />
+								</div>
+								<img src="img/feature-post-shadow.png" alt="shadow" />
+								
+								<h4>Lorem ipsum dolor</h4>
+								<div class="content">
+									<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum.</p>
+									<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum.</p>
+									
+									<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum.</p>
+									<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum.</p>
+									
+									
+									</div>
+								
+								
+								
+								
+							</div>
+								
+						</div>	
+						<!-- ENDS single -->
+											
+						
+					</div>
+					<!-- ENDS side content -->
+					
+					<!-- sidebar -->
+					<div id="sidebar">
+						<div class="sideblock">
+							<h6 class="side-title">Project info</h6>
+							<ul class="project-info">
+								<li class="date">22 jul, 2011</li>
+								<li class="client">Murakami corp</li>
+								<li class="link"><a href="http://sc.chinaz.com/">luiszuno.com</a></li>
+								<li class="info"><strong>Additional info.</strong> Lorem ipsum dolor amet, Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.</li>
+							</ul>
+				    	</div>
+				    	
+				    	<div class="sideblock">
+							<h6 class="side-title">Project tags</h6>
+							<ul class="wp-tag-cloud">
+								<li><a href="#">Pink</a></li>
+								<li><a href="#">Red</a></li>
+								<li><a href="#">Yellow</a></li><li><a href="#">Pink</a></li>
+								<li><a href="#">Red</a></li>
+								<li><a href="#">Yellow</a></li><li><a href="#">Pink</a></li>
+								<li><a href="#">Red</a></li>
+								<li><a href="#">Yellow</a></li><li><a href="#">Pink</a></li>
+								<li><a href="#">Red</a></li>
+								<li><a href="#">Yellow</a></li><li><a href="#">Pink</a></li>
+								<li><a href="#">Red</a></li>
+								<li><a href="#">Yellow</a></li>
+							</ul>
+				    	</div>
+				    	
+					</div>
+					<!-- ENDS sidebar -->
+					
+					<div class="clear"></div>
+	        	
+<erl>
+out(A) -> {ssi, "FOOT",[],[]}.
+</erl>
