@@ -1,0 +1,126 @@
+<erl>
+
+out(A) ->
+       {ssi, "HEAD", "%%",[{"blog", "current-menu-item"}]}.
+
+</erl>
+	        	
+					<div class="page-title"><h1>Our Blog</h1> <span>Lorem ipsum dolor amet</span></div>
+					
+					<!-- side content -->
+					<div id="side-content">
+					
+						<!-- Blog loop -->
+						<div class="blog-loop">
+						
+							<div class="post">
+								<a href="single.html" class="post-feature-img">
+									<img src="img/dummies/590x260.jpg" alt="Pic" />
+								</a>
+								<img src="img/feature-post-shadow.png" alt="shadow" />
+								
+								<h4>Lorem ipsum dolor</h4>
+								<div class="excerpt">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum...</div>
+								<div class="meta">
+									Posted by <a href="#">admin</a>, in <a href="#">showcase</a>, <a href="#">paints</a> <a href="single.html" class="read-more">Read more...</a>
+								</div>
+								<div class="meta-date">
+									<span class="meta-day">23</span><span class="meta-month">Jul</span><span class="meta-year">2011</span>
+								</div>
+							</div>
+							
+							<div class="post">
+								<a href="single.html" class="post-feature-img">
+									<img src="img/dummies/590x260.jpg" alt="Pic" />
+								</a>
+								<img src="img/feature-post-shadow.png" alt="shadow" />
+								
+								<h4>Lorem ipsum dolor</h4>
+								<div class="excerpt">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum...</div>
+								<div class="meta">
+									Posted by <a href="#">admin</a>, in <a href="#">showcase</a>, <a href="#">paints</a> <a href="single.html" class="read-more">Read more...</a>
+								</div>
+								<div class="meta-date">
+									<span class="meta-day">23</span><span class="meta-month">Jul</span><span class="meta-year">2011</span>
+								</div>
+							</div>
+							
+							<div class="post">
+								<a href="single.html" class="post-feature-img">
+									<img src="img/dummies/590x260.jpg" alt="Pic" />
+								</a>
+								<img src="img/feature-post-shadow.png" alt="shadow" />
+								
+								<h4>Lorem ipsum dolor</h4>
+								<div class="excerpt">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum...</div>
+								<div class="meta">
+									Posted by <a href="#">admin</a>, in <a href="#">showcase</a>, <a href="#">paints</a> <a href="single.html" class="read-more">Read more...</a>
+								</div>
+								<div class="meta-date">
+									<span class="meta-day">23</span><span class="meta-month">Jul</span><span class="meta-year">2011</span>
+								</div>
+							</div>
+							
+							
+							<!-- pager -->	
+							<ul class='pager'>
+								<li class='first-page'><a href='#'>&laquo;</a></li>
+								<li><a href='#' >&lsaquo;</a></li>
+								<li><a href='#' >2</a></li>
+								<li><a href='#' >3</a></li>
+								<li class='active'><a href='#'>4</a></li>
+								<li><a href='#' >5</a></li>
+								<li><a href='#' >6</a></li>
+								<li><a href='#' >&rsaquo;</a></li>
+								<li class='last-page'><a href='#'>&raquo;</a></li>
+							</ul>
+							<div class="clear"></div>
+							<!-- ENDS pager -->
+				
+				
+						</div>
+						<!-- ENDS Blog loop -->
+						
+					</div>
+					<!-- ENDS side content -->
+					
+					<!-- sidebar -->
+					<div id="sidebar">
+						<div class="sideblock">
+							<h6 class="side-title">Categories</h6>
+							<ul class="cat-list">
+					    		<li><a href="#" > Pink </a></li>
+					    		<li><a href="#" > Red </a></li>
+					    		<li><a href="#" > Button  </a></li>
+					    		<li><a href="#" > Project </a></li>
+					    		<li><a href="#" > Code </a></li>
+					    		<li><a href="#" > Jquery </a></li>
+					    		<li><a href="#" > Web </a></li>
+					    	</ul>
+				    	</div>
+				    	
+				    	<div class="sideblock">
+							<h6 class="side-title">Post tags</h6>
+							<ul class="wp-tag-cloud">
+								<li><a href="#">Pink</a></li>
+								<li><a href="#">Red</a></li>
+								<li><a href="#">Yellow</a></li><li><a href="#">Pink</a></li>
+								<li><a href="#">Red</a></li>
+								<li><a href="#">Yellow</a></li><li><a href="#">Pink</a></li>
+								<li><a href="#">Red</a></li>
+								<li><a href="#">Yellow</a></li><li><a href="#">Pink</a></li>
+								<li><a href="#">Red</a></li>
+								<li><a href="#">Yellow</a></li><li><a href="#">Pink</a></li>
+								<li><a href="#">Red</a></li>
+								<li><a href="#">Yellow</a></li>
+							</ul>
+				    	</div>
+				    	
+					</div>
+					<!-- ENDS sidebar -->
+					
+					<div class="clear"></div>
+
+<erl>
+out(A) -> {ssi, "FOOT",[],[]}.
+</erl>

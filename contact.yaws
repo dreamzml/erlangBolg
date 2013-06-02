@@ -1,0 +1,125 @@
+<erl>
+
+out(A) ->
+       {ssi, "HEAD", "%%",[{"contact", "current-menu-item"}]}.
+
+</erl>
+	        	
+<div class="page-title"><h1>Contact</h1> <span>Where and how to get in touch</span></div>
+
+<!-- side content -->
+<div id="side-content">
+
+	<h4>关于我们</h4>
+	
+	<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vi sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum.</p>
+		<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum.</p>
+	
+
+	
+	<h2 class="title-divider">联系我们</h2>			
+	<!-- form -->
+	<script type="text/javascript" src="js/form-validation.js"></script>
+	<form id="contactForm" action="post.yaws" method="post">
+		<fieldset>
+			<div>
+				<input name="name"  id="name" type="text" class="form-poshytip" title="输入你的姓名" />
+				<label>姓名</label>
+			</div>
+			<div>
+				<input name="email"  id="email" type="text" class="form-poshytip" title="输入你的邮箱地址" />
+				<label>Email</label>
+			</div>
+			<div>
+				
+				<input name="web"  id="web" type="text" class="form-poshytip" title="输入你的网址" />
+				<label>网址</label>
+			</div>
+			<div>
+				<textarea  name="comments"  id="comments" rows="5" cols="20" class="form-poshytip" title="输入你的建议"></textarea>
+			</div>
+			
+			<!-- send mail configuration -->
+			<input type="hidden" value="luis@luiszuno.com" name="to" id="to" />
+			<input type="hidden" value="ENter the subject here" name="subject" id="subject" />
+			<input type="hidden" value="send-mail.php" name="sendMailUrl" id="sendMailUrl" />
+			<!-- ENDS send mail configuration -->
+			
+			<p><input type="submit" value="Send" name="submit" id="submit" /> <span id="error" class="warning">Message</span></p>
+		</fieldset>
+		
+	</form>
+	<p id="success" class="success">表单已经提交.感谢你的建议.</p>
+	<!-- ENDS form -->
+
+				
+	
+</div>
+<!-- ENDS side content -->
+
+
+
+	
+										
+
+<!-- sidebar -->
+<div id="sidebar">
+	<h4>地图位置</h4>
+	<!-- Google map -->
+	
+	<!-- GOOGLE MAPS -->
+	<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAyXu_1Zw3-DbyonSxgLICyxSWQUvSd76__Y3fi9Kog3e7ZrY_3BSXzMhasJq2gZLNOWT1yWR8ut-FDA" ></script>
+	<script type="text/javascript" >google.load("maps","2.x");</script>
+	
+	<script type="text/javascript">
+		
+		jQuery(document).ready(function($) {
+		
+		//##########################################
+		// Google maps
+		//##########################################
+		
+		// You can get the latitud and Longitude values at http://itouchmap.com/latlong.html
+		
+		var latitude = 22.67265;
+		var longitude = 114.123312;
+		
+		// center map
+		var map = new GMap2(document.getElementById("map")); 
+		var point = new GLatLng(latitude, longitude); 
+		map.setCenter(point, 12);
+		
+		// Set marker
+		marker = new GMarker(point); 
+		map.addOverlay(marker);
+		
+		// controls
+		map.addControl(new GLargeMapControl());
+		
+		});
+	</script>
+	<!-- ENDS GOOGLE MAPS -->
+
+
+	<div id="map"></div>
+	<!-- ENDS Google map -->
+	
+	
+	<h4>地址</h4>
+	<p>
+		指易达电子商务有限公司<br/>
+		深圳市平湖华南城环球物流大厦1919<br/>
+		邮缟 518000<br/>
+		电话. (33) 4347 26235, (33) 4347 26211<br/>
+		<a href="http://www.zeeeda.com/">www.zeeeda.com</a><br/>
+	</p>
+	
+	
+</div>
+<!-- ENDS sidebar -->
+
+<div class="clear"></div>
+
+<erl>
+out(A) -> {ssi, "FOOT",[],[]}.
+</erl>
